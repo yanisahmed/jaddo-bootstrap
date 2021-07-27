@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+/* font-family: 'Volkhov', serif; */
+
+
+header{
+     /* background: #FFF1DA;
+     clip-path: polygon(100% 0, 100% 100%, 88% 100%, 81% 97%, 75% 90%, 72% 75%, 68% 68%, 62% 45%, 51% 24%, 50% 0); */
+     position: relative;
+     background-image: url(../img/Decore.png);
+     background-repeat: no-repeat;
+     background-position: right top;
+     
+}
+
+.shaddow{
+    position: absolute;
+    width: 120px;
+    height: 500px;
+    background: #D5AEE4;
+    opacity: 0.3;
+    filter: blur(150px);
+    clip-path: circle(100px at -51% 29%);
+}
+
+.hero-button i{
+    background: #DF6951;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.shadow-play{
+    box-shadow: 0px 15px 30px rgba(223, 105, 81, 0.3);
+}
+
+/* Category Section */
+
+.category-section .container{
+    background: url(../img/Group-4.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+.category-top h3{
+    font-family: "poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    line-height: 1.5rem;
+    
+}
+
+.category-top h1{
+    font-family: 'Volkhov', serif;
+    font-weight: 700;
+    font-size: 3em;
+    line-height: 4rem;
+    
+}
+
+.single-category img{
+    width: 40px;
+    height: 40px;
+}
+
+.single-category h3{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.1em;
+    line-height: 27px;
+
+    color: #1E1D4C;
+}
+
+.single-category p{
+font-family: "Poppins";
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 26px;
+color: #5E6282;
+}
+.single-category.active img{
+    width: 70px;
+    height: 70px;
+}
+
+
+/* footer */
+
+.footer-logo h1{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 66px;
+    color: #181E4B;
+}
+.footer-logo p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #5E6282;
+}
+
+.widgets .title{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #080809;
+}
+.widgets ul{margin: 0;padding: 0;}
+.widgets ul li{list-style-type: none;}
+.widgets ul li a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #5E6282;
+}
